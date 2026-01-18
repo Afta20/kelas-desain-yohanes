@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp Desain Murah Banget</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-blue': '#2563EB',
+                        'brand-dark': '#0F172A',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-slate-800 bg-slate-50">
+
+    <nav class="flex justify-between items-center p-6 max-w-6xl mx-auto">
+        <div class="text-2xl font-bold text-brand-blue">DesignCamp<span class="text-slate-900">.</span></div>
+        <a href="#daftar" class="bg-brand-dark text-white px-5 py-2 rounded-full hover:bg-slate-700 transition">Daftar</a>
+    </nav>
+
+    <section class="text-center py-20 px-4">
+        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mb-4 inline-block">Cuma 20 Ribu Perak!</span>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+            Belajar Desain Grafis & <br> UI/UX Sampai Jago
+        </h1>
+        <p class="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
+            24 Pertemuan padat materi. Dari nol sampai bisa bikin portofolio keren. 
+            Harga cilok, ilmu daging.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="#daftar" class="bg-brand-blue text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-500/30">Gas Daftar Sekarang</a>
+            <a href="#materi" class="bg-white text-slate-700 border border-slate-300 px-8 py-3 rounded-lg font-medium hover:bg-slate-50 transition">Lihat Materi</a>
+        </div>
+    </section>
+
+    <section id="materi" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Apa yang Kamu Dapet?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4 text-2xl">🎨</div>
+                    <h3 class="text-xl font-bold mb-2">Basic Graphic Design</h3>
+                    <p class="text-slate-600">Teori warna, tipografi, layouting, sampai manipulasi foto dasar.</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-pink-100 text-pink-600 rounded-lg flex items-center justify-center mb-4 text-2xl">📱</div>
+                    <h3 class="text-xl font-bold mb-2">UI/UX Design</h3>
+                    <p class="text-slate-600">Wireframing, prototyping di Figma, sampai usability testing simpel.</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-4 text-2xl">💼</div>
+                    <h3 class="text-xl font-bold mb-2">Portofolio Review</h3>
+                    <p class="text-slate-600">Review hasil karya kamu biar siap dipamerin di LinkedIn atau Behance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4">
+        <div class="max-w-md mx-auto bg-brand-dark text-white rounded-3xl p-8 md:p-12 text-center shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-full bg-blue-500 opacity-10 blur-3xl"></div>
+            
+            <h2 class="text-2xl font-bold mb-4 relative z-10">Investasi Leher ke Atas</h2>
+            <div class="text-6xl font-extrabold mb-2 relative z-10">Rp20rb</div>
+            <p class="text-slate-400 mb-8 relative z-10">Untuk 24x Pertemuan (Serius murah banget)</p>
+            
+            <ul class="text-left space-y-3 mb-8 relative z-10 text-slate-300">
+                <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Akses Materi Seumur Hidup</li>
+                <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Grup Komunitas Discord</li>
+                <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Mentoring Santai</li>
+                <li class="flex items-center gap-2"><span class="text-green-400">✓</span> Teman Baru</li>
+            </ul>
+
+            <a href="https://wa.me/628127280526?text=Halo%20kak,%20saya%20tertarik%20daftar%20bootcamp%20Desain%2020rb-nya" 
+   target="_blank"
+   class="block w-full bg-brand-blue hover:bg-blue-600 text-white font-bold py-4 rounded-xl transition relative z-10 no-underline">
+    Amankan Slot (Via WhatsApp)
+</a>
+        </div>
+    </section>
+
+    <footer class="bg-white py-8 text-center border-t border-slate-100">
+        <p class="text-slate-500">Dibuat dengan cinta dan kasih sayang. &copy; 2026.</p>
+    </footer>
+
+</body>
+</html>
